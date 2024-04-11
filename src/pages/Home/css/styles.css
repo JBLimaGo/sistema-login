@@ -8,12 +8,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("../img/bg.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
 button{
     background-color: #FDFDFD;
     color: #102f5e;    

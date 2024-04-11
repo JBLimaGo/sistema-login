@@ -260,8 +260,6 @@ const Home = () => {
   loadTodos();
 
 
-
-
   return (
     <C.Container>
       <head>
@@ -282,7 +280,7 @@ const Home = () => {
 
 
 
-      <C.Title> Todo Avançado - Jefferson Lima </C.Title>
+      <C.Title> Lista de Tarefas </C.Title>
 
       <div class="todo-container">
 
@@ -331,6 +329,7 @@ const Home = () => {
         <div id="todo-list">
 
         </div>
+
       </div>
 
 

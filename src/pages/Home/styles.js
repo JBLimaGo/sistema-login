@@ -1,26 +1,23 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+   
+    background-image: url("https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMjc5MzUxNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");    
+       
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    gap: 20px; 
+    width: 100%; 
+    gap: 20px;  
 
-  
 *{
     padding: 0;
     margin: 0;
     font-family: Helvetica;
     color: #333;
     box-sizing: border-box;
-}
-
-body{
-    background-image: url("../img/bg.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
 button{
@@ -167,9 +164,6 @@ select{
     text-decoration: line-through;
     font-style: italic;
 }
-
-
-
 
 
 `;
